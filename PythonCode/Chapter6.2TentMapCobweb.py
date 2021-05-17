@@ -7,6 +7,7 @@ Created on Thu Feb 21 13:32:31 2019
 """
 
 import numpy as np, matplotlib.pyplot as plt
+#Plot of cobweb diagram for the Tent Map
 
 #Initial Variables
 n = 20
