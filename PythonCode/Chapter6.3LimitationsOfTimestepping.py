@@ -6,7 +6,7 @@ Created on Tue Oct  9 12:49:09 2018
 @author: Richard
 """
 
-#Calculating the different endpoints for the Lorenz system (RK4 timestepping), using different values of dt (time step width)
+#Calculating the endpoints for the Lorenz system (RK4 timestepping), using different values of dt (time step width)
 
 # time steps the Lorenz equations
 import numpy as np , matplotlib.pyplot as plt , TimesteppingRK4 as ts
@@ -25,9 +25,9 @@ print(tmax)
 
 for dt in dtArray:
     
-    # initial conditions (x Array: 3 position vars)
     t=0
 
+    # initial conditions (x Array: 3 position vars)
     x=np.array([-10,0,27])
 
     # number of timesteps taken; initialise to 0
