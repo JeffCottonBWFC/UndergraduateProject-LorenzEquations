@@ -9,6 +9,7 @@ Created on Thu Feb 14 13:14:04 2019
 import numpy as np , matplotlib.pyplot as plt , TimesteppingRK4 as ts
 from mpl_toolkits.mplot3d import Axes3D
 
+#Plotting locations of points which cross through the specified Poincare section and determining which direction the plane is passed
 
 # parameters
 b = 8/3
@@ -96,7 +97,7 @@ plt.grid(b=True, which='major', axis='both', color='k', linestyle='-', linewidth
 plt.show()
 
 
-
+#Ignore first 400 (x,y,z) values
 xValues = xValues[400:]
 yValues = yValues[400:]
 zValues = zValues[400:]
