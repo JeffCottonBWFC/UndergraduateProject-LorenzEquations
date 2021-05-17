@@ -9,9 +9,10 @@ Created on Wed Feb  6 14:19:50 2019
 import numpy as np , matplotlib.pyplot as plt
 
 
+#Plotting the tent map for report
+
 title_font = {'fontname':'Arial', 'size':'15'}
 axis_font = {'fontname':'Arial', 'size':'15'}
-
 
 
 MapXValues = [0,0.5,1]
